@@ -1,0 +1,86 @@
+Sure! Here are **5 easy C++ hash-based problems** that are great for practicing **hash maps (unordered_map)** or **hash sets (unordered_set)**.
+
+---
+
+### 🚩 1. **Count Frequencies of Elements**
+
+**Problem:**
+Given an array of integers, count the frequency of each element and print the result.
+
+**Example:**
+```cpp
+Input:  [1, 2, 2, 1, 3]
+Output: 
+1 -> 2
+2 -> 2
+3 -> 1
+```
+
+**Hash Concept:** Use `unordered_map<int, int>` to store frequencies.
+
+---
+
+### 🚩 2. **Check for Duplicates in Array**
+
+**Problem:**
+Given an array of integers, check whether it contains any duplicates.
+
+**Example:**
+```cpp
+Input:  [1, 2, 3, 4]
+Output: false
+
+Input:  [1, 2, 3, 1]
+Output: true
+```
+
+**Hash Concept:** Use `unordered_set<int>` to track seen elements.
+
+---
+
+### 🚩 3. **Find First Repeating Element**
+
+**Problem:**
+Given an array of integers, find the first element that repeats.
+
+**Example:**
+```cpp
+Input:  [10, 5, 3, 4, 3, 5, 6]
+Output: 5
+```
+
+**Hash Concept:** Use `unordered_map<int, int>` to track occurrences and positions.
+
+---
+
+### 🚩 4. **Two Sum**
+
+**Problem:**
+Given an array and a target value, return the indices of the two numbers that add up to the target.
+
+**Example:**
+```cpp
+Input:  nums = [2, 7, 11, 15], target = 9
+Output: [0, 1]
+```
+
+**Hash Concept:** Store the difference (target - current) in `unordered_map<int, int>`.
+
+---
+
+### 🚩 5. **Intersection of Two Arrays**
+
+**Problem:**
+Find the intersection of two arrays (unique elements present in both).
+
+**Example:**
+```cpp
+Input:  nums1 = [1, 2, 2, 1], nums2 = [2, 2]
+Output: [2]
+```
+
+**Hash Concept:** Use `unordered_set` to find common elements.
+
+---
+
+Would you like me to give you the **code templates** for any of these in C++?
